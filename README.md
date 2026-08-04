@@ -8,3 +8,10 @@ Variable respuesta (a construir): requirio_despacho — binaria, indica si el in
 Motivación: Modelar la probabilidad de despacho permite estimar la demanda de recursos de emergencia y calcular tarifas de seguros de responsabilidad civil vial. El desbalance de clases es pronunciado y obliga a decisiones metodológicas cuidadosas.
 
 Reto técnico: desbalance de clases, variables temporales, coordenadas geoespaciales, categorías con alta cardinalidad (motivo del incidente).
+
+Modelos evaluados
+
+• Regresión Logística
+• Random Forest
+• XGBoost
+• Soft Voting Ensemble
