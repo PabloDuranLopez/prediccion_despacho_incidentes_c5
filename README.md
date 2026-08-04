@@ -15,3 +15,15 @@ Modelos evaluados
 • Random Forest
 • XGBoost
 • Soft Voting Ensemble
+
+
+## Comparación de modelos
+
+| Modelo | Accuracy | Precision | Recall | F1-score | Comentario |
+|:----------------------|:--------:|:---------:|:------:|:--------:|:--------------------------------------------|
+| **Regresión Logística** | 0.555 | 0.476 | 0.803 | 0.598 | Baseline con alto recall y gran interpretabilidad. |
+| **Random Forest** | **0.571** 🥇 | **0.486** 🥇 | 0.768 | 0.596 | Mayor precisión y accuracy, sacrificando recall. |
+| **XGBoost** | 0.563 | 0.482 | 0.804 | **0.602** 🥇 | Mejor equilibrio entre precisión y recall. |
+| **Soft Voting Ensemble** | 0.561 | 0.480 | **0.805** 🥇 | 0.601 | Mayor recall, objetivo principal del problema. |
+
+> **Nota:** El umbral de clasificación se fijó en **0.30** para priorizar el **recall** de la clase positiva (incidentes que requieren despacho), reduciendo la probabilidad de omitir emergencias reales.
