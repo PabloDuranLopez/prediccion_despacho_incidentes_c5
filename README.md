@@ -1,4 +1,4 @@
-# prediccion_despacho_incidentes_c5
+# Prediccion despacho incidentes C5 mediante XGBoost, Regresion Logistica, Random Forest y soft voting.
 
 Clasificación Binaria: Incidentes Viales CDMX (C5)
 Fuente: Portal de Datos Abiertos de la Ciudad de México — Centro de Comando C5 URL: https://datos.cdmx.gob.mx/dataset/incidentes-viales-c5 Descripción: Registro de incidentes viales desde 2014, actualizado mensualmente. Incluye: folio, fecha/hora de creación y cierre, motivo del incidente, alcaldía, latitud/longitud, código de cierre, clasificación, y origen del incidente.
